@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica DenCare</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Estilos do cabeçalho */
+        .header {
+            background-color: #080808;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .menu li:last-child {
+            margin-right: 0;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Estilos da seção herói */
+        .hero {
+            background-image: url('clinica.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero-description {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #070707;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos da seção de tratamentos */
+        .section-title {
+            text-align: center;
+        }
+
+        .treatment-list {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .treatment-item {
+            flex-basis: calc(33.33% - 20px);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .treatment-item img {
+            max-width: 100%;
+            border-radius: 10px; /* Borda arredondada para as imagens */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: transform 0.3s ease; /* Efeito de transição suave */
+        }
+
+        .treatment-item img:hover {
+            transform: scale(1.05); /* Aumenta ligeiramente o tamanho da imagem ao passar o mouse */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+        }
+
+        /* Estilos do rodapé */
+        .footer {
+            background-color: #080808;
+            color: #f8f6f6;
+            text-align: center;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Cirurgias</h1>
+        
+            
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h2 class="hero-title">Cirurgias Que cuidam de você</h2>
+        <p class="hero-description">Cuidamos do seu sorriso e da sua saúde bucal com excelência e dedicação.</p>
+        
+    </div>
+</section>
+
+<section id="tratamentos" class="treatments">
+    <div class="container">
+        <h2 class="section-title">Nossas cirurgias</h2>
+        <div class="treatment-list">
+            <div class="treatment-item">
+                <img src="cirurgia1.jpg.crdownload" alt="Tratamento 1">
+                <h3>Canal</h3>
+
+            </div>
+            <div class="treatment-item">
+                <img src="cirurgia2.jpg" alt="Tratamento 2">
+                <h3>extração de siso.</h3>  
+            </div>
+            <div class="treatment-item">
+                <img src="exontotia.jpg" alt="Tratamento 3">
+                <h3>Exodontia</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Clínica Odontológica XYZ. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
